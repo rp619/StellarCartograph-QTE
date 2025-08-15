@@ -1,0 +1,16 @@
+┌────────────────────────────────────────────────────────────┐
+│  Python DSL / Jupyter Kernel                               │
+└──────────────────────────────┬─────────────────────────────┘
+                               │ Arrow-Flight (gRPC)
+┌──────────────────────────────┴─────────────────────────────┐
+│  WasmEdge Sandbox (Rust) — Quantum-Inspired Tensor Core    │
+│  ├─ SIMD-accelerated Complex128 GEMM                      │
+│  ├─ Temporal CRDT Log (Merklized)                         │
+│  └─ AI Query Planner (ONNX Runtime)                       │
+└──────────────────────────────┬─────────────────────────────┘
+                               │ libp2p QUIC
+┌──────────────────────────────┴─────────────────────────────┐
+│  Kubernetes CRD (StellarCluster)                           │
+│  ├─ Sharded HotStuff-BFT consensus                        │
+│  └─ Prometheus + Grafana Operator                          │
+└────────────────────────────────────────────────────────────┘
